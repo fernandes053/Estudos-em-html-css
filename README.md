@@ -1,4 +1,4 @@
-📚 Estudos em HTML e CSS
+# 📚 Estudos em HTML e CSS
 
 Este repositório foi criado para registrar minha evolução no aprendizado de HTML5 e CSS3.
 Aqui estão reunidos exercícios, testes e pequenos projetos desenvolvidos durante meus estudos em desenvolvimento web.
@@ -7,13 +7,13 @@ O objetivo deste repositório é praticar conceitos fundamentais de front-end, o
 
 ---
 
-🚀 Tecnologias utilizadas
+## 🚀 Tecnologias utilizadas
 -HTML5
 -CSS3
 
 ---
 
-📂 Estrutura do repositório
+## 📂 Estrutura do repositório
 O repositório contém diferentes exercícios e exemplos desenvolvidos durante o estudo das linguagens:
 -📁 exercicios
 -📁 desafios
@@ -21,7 +21,7 @@ O repositório contém diferentes exercícios e exemplos desenvolvidos durante o
 
 ---
 
-🎯 Objetivo
+## 🎯 Objetivo
 
 -Aprender a estruturar páginas web com HTML
 -Estilizar páginas utilizando CSS
@@ -30,13 +30,13 @@ O repositório contém diferentes exercícios e exemplos desenvolvidos durante o
 
 ---
 
-📈 Progresso
+## 📈 Progresso
 
 Este repositório será atualizado conforme avanço nos estudos e novos exercícios ou projetos forem sendo desenvolvidos.
 
 ---
 
-👨‍💻 Autor
+## 👨‍💻 Autor
 
 -Leonardo Fernandes Mastroto
 
