@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+    <title>Videos em HTML5</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>
+        Esse vídeo está hospedado no meu próprio servidor.
+    </p>
+    <video preload="metadata" controls width="600">
+        <source src="midia/mom_get_the_camera.mp4" type="video/mp4">
+        <source src="midia/mom_get_the_camera.webm" type="video/webm">
+        <p>
+            Seu navegador não suporta o video, clique aqui para fazer o download: <a href="midia/Mom get the camera!! (Original) - BrightonsBigDay (720p, h264, youtube).mp4"> Video download</a>
+        </p>
+    </video>
+
+    <h1>Inserindo videos de outros servidores</h1>
+    <p>podemos hospedar localmente videos de outros servidores, como o youtube, veja um exemplo a baixo</p>
+    <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/M1PcxAESEnY?si=bEIhKc3EhvGeaVAB&amp;start=235" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allowfullscreen>
+    </iframe>
+    <h1>Inserindo video do Vimeo</h1>
+    <iframe 
+        title="vimeo-player" 
+        src="https://player.vimeo.com/video/886567822?h=4b87fedbb7" 
+        width="560" 
+        height="315" 
+        frameborder="0" 
+        referrerpolicy="strict-origin-when-cross-origin" 
+        allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"   
+        allowfullscreen>
+    </iframe>
+
+
+</body>
+</html>
