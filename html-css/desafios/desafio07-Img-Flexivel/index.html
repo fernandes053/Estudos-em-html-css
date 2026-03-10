@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+    <title>Imagen Flexível</title>
+</head>
+<body>
+
+<h1>Imagen Flexível</h1>
+<hr>
+<p>Você está vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar melhor a sua experiência 🤯</p>
+<picture>
+    <!-- AVIF -->
+    <source media="(max-width: 600px)" srcset="imagens/predador/Predador-P.avif" type="image/avif">
+    <source media="(max-width: 1024px)" srcset="imagens/predador/Predador-M.avif" type="image/avif">
+    <source srcset="imagens/predador/Predador-G.avif" type="image/avif">
+
+    <!-- WebP -->
+    <source media="(max-width: 600px)" srcset="imagens/predador/Predador-P.webp" type="image/webp">
+    <source media="(max-width: 1024px)" srcset="imagens/predador/Predador-M.webp" type="image/webp">
+    <source srcset="imagens/predador/Predador-G.webp" type="image/webp">
+
+    <!-- JPG fallback com srcset -->
+    <img
+      src="imagens/predador/Predador-G.jpg"
+      srcset="imagens/predador/Predador-P.jpg 600w,
+              imagens/predador/Predador-M.jpg 1024w,
+              imagens/predador/Predador-G.jpg 1600w"
+      sizes="(max-width: 600px) 100vw,
+             (max-width: 1024px) 100vw,
+             1600px"
+      alt="Predador">
+
+</picture>
+
+
+</body>
+</html>
