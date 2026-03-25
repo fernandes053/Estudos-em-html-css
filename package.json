@@ -1,0 +1,24 @@
+{
+  "name": "estudos-em-html-css",
+  "version": "1.0.0",
+  "description": "Este repositório foi criado para registrar minha evolução no aprendizado de HTML5 e CSS3.  \r Aqui estão reunidos exercícios, testes e pequenos projetos desenvolvidos durante meus estudos em desenvolvimento web.  \r O objetivo deste repositório é praticar conceitos fundamentais de front-end, organizar os códigos produzidos durante o aprendizado e acompanhar meu progresso ao longo do tempo.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandes053/Estudos-em-html-css.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fernandes053/Estudos-em-html-css/issues"
+  },
+  "homepage": "https://github.com/fernandes053/Estudos-em-html-css#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}

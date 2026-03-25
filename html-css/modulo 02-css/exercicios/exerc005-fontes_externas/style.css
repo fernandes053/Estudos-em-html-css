@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'minha-fonte';
+    src: url(fonts/Nabla-Regular-VariableFont_EDPT\,EHLT.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'minha-fonte2';
+    src: url(fonts/MountainsofChristmas-Regular.ttf) format('truetype');
+}
