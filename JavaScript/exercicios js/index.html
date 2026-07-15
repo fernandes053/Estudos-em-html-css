@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Verificador de idade</title>
+</head>
+<body>
+
+    <h1 class="titulo">Verificador de idade</h1>
+
+    <div class="caixa-p">
+
+        <div class="informacoes">
+            <label for="ano-nascimento">Ano de nascimento:</label>
+            <input
+                class="nascimento" 
+                type="number" 
+                id="ano-nascimento" 
+                min="1900" 
+                max="2026" 
+                oninput="limitarNumeros(this)"
+            >
+        </div>
+
+        <div class="campo-grupo">
+            <label>Sexo:</label>
+            <input type="radio" name="sexo" id="masc" value="M">
+            <label for="masc">Masculino</label>
+    
+            <input type="radio" name="sexo" id="fem" value="F">
+            <label for="fem">Feminino</label>
+        </div>
+
+        <div class="campo-grupo">
+            <!-- Corrigido: adicionado o gatilho de clique para chamar a função -->
+            <button id="btn-verificar" onclick="verificar()">Verificar</button>
+        </div>
+
+        <!-- Corrigido: fechamento da tag alterado de <p> para </p> -->
+        <p id="resultado">Preencha os dados acima para verificar o seu resultado</p>
+        
+        <img id="foto" src="" alt="Foto do resultado" style="display: none;">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(19, 40, 160);
+}
+
+.titulo{
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+
+.caixa-p{
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    padding-right: 100px;
+
+    /* MÁGICA DO AJUSTE AUTOMÁTICO */
+    width: max-content;  
+    height: auto;        
+
+    display: flex;
+    flex-direction: column;  
+    align-items: flex-start; /* Ajustado de left para flex-start (padrão correto do flexbox) */
+    gap: 25px;               
+}
+
+/* Remove as setas no Chrome, Safari, Edge e Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Remove as setas no Firefox */
+/* Corrigido: de .nascimetno para .nascimento */
+.nascimento[type=number] {
+    -moz-appearance: textfield;
+}
+
+/* Estilo da caixinha */
+.nascimento {
+    border: 1px solid #ccc;
+    padding: 4px;
+    border-radius: 4px;
+    width: 100px;
+}
+
+#foto{
+    width: 200px;       
+    height: 200px;      
+    border-radius: 50%; 
+    object-fit: cover;  
+    margin-top: 10px;   
+    align-self: center; /* Centraliza a foto no meio do bloco mesmo se os textos estiverem à esquerda */
+}

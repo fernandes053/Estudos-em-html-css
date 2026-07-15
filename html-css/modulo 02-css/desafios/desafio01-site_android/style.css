@@ -67,15 +67,15 @@ nav a:hover{
 
 main{
   line-height: 1.6;
-  text-align: left;
+  min-width: 300px;
+  max-width: 1000px;
   background-color: white;
-  max-width: 1126px;   /* largura máxima */
-  margin: auto;       /* centraliza */
-  padding: 20px;      /* espaço interno */
-  height: 1000px;
-  box-shadow: 
-  -4px 0 20px rgba(0, 0, 0, 0.2),
-   4px 0 20px rgba(0, 0, 0, 0.2);
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.493);
+  margin-bottom: 30px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 img{
@@ -108,4 +108,64 @@ img{
 
 .links::after {
   content: " 🔗";
+}
+
+.destaque{
+  color: #1f493b;
+  font-weight: 700;
+}
+
+main p{
+  text-indent: 30px;
+}
+
+.video {
+  width: 100%;
+}
+
+.aprender-mais{
+  background-color: #2ba068;
+}
+
+.white-gold{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.white-gold:hover{
+  text-decoration: underline;
+  color: #83e1ad;
+}
+
+footer{
+  font-size: 1.1em;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  background-color: #063d1e;
+}
+
+aside{
+  background-color: #83e1ad;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+aside > h3 {
+  background-color: #1a5c37;
+  color: white;
+  padding: 10px;
+  margin: -10px -10px 0 -10px; /*Margem negativa cima direita baixo e esquerda*/
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.37);
+  font-family: bebas_neue;
+  font-weight: normal;
+  font-size: 1.2em;
+}
+
+aside > ul {
+  list-style-type: "\2714\00A0\00A0"; /*Não compatível com todos os navegadores. Uso de emoji */
+  list-style-position: inside;
+  columns: 2;
 }
